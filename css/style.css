@@ -17,6 +17,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
+  margin-bottom: 6.4rem;
 }
 .nebula-logo {
   width: 9rem;
@@ -42,3 +43,49 @@ nav {
   margin-right: 15rem;
 }
 /* hero section styling */
+.hero-section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.hero-section-context {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero-section-h2 {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  opacity: 85%;
+  font-weight: 500;
+}
+.hero-section-h3 {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+  letter-spacing: -0.2rem;
+  font-weight: 700;
+}
+.hero-section-p-one {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+.hero-section-img {
+  position: relative;
+}
+.hero-section-img::after {
+  content: "";
+  height: 200rem;
+  width: 200rem;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 27, 27));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
