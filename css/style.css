@@ -6,3 +6,39 @@
 body {
   font-family: "Montserrat";
 }
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+.nebula-logo {
+  width: 9rem;
+}
+.nav-links {
+  display: flex;
+  gap: 10%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.ct-btn {
+  background-color: rgb(255, 0, 0);
+  color: #fafafa;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  margin-left: 6rem;
+  margin-right: 15rem;
+}
+/* hero section styling */
