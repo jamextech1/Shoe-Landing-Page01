@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Montserrat";
+  margin-bottom: 10rem;
 }
 html {
   font-size: 62.5%;
@@ -25,6 +26,7 @@ nav {
 .nav-links {
   display: flex;
   gap: 10%;
+  margin-right: 10rem;
 }
 .nav-links li {
   list-style: none;
@@ -40,11 +42,10 @@ nav {
   padding: 0.8rem 1rem;
   border-radius: 1rem;
   margin-left: 6rem;
-  margin-right: 15rem;
 }
 /* hero section styling */
 .hero-section {
-  width: 90%;
+  max-width: 90%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-items: center;
@@ -88,4 +89,70 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
+}
+header {
+  margin-bottom: 20.5rem;
+}
+
+/* PRICING SECTION STYLING */
+.pricing-section {
+  margin: 0 auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 14%;
+}
+.pricing-section-img {
+  height: 48rem;
+  border-radius: 50%;
+}
+.pricing-section-context {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.pricing-section-h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  opacity: 60%;
+}
+.pricing-section-h4 {
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  opacity: 80%;
+}
+.stars-cols {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.last-child {
+  color: #969696;
+}
+.pricing-section-p-one {
+  font-size: 3.2rem;
+  font-weight: 500;
+  opacity: 75%;
+  margin-bottom: 1.8rem;
+}
+.pricing-section-two {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
+  text-transform: capitalize;
+  opacity: 70%;
+  margin-bottom: 1.9rem;
+  font-weight: 520;
+}
+.pricing-section-three {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  opacity: 70%;
+  font-weight: 480;
 }
