@@ -136,7 +136,7 @@ header {
   font-size: 1.8rem;
 }
 .last-child {
-  color: #969696;
+  color: #d8d8d8;
 }
 .pricing-section-p-one {
   font-size: 3.2rem;
@@ -148,6 +148,7 @@ header {
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.15rem;
+  line-height: 1.4;
   text-transform: capitalize;
   opacity: 70%;
   margin-bottom: 1.9rem;
@@ -158,4 +159,6 @@ header {
   text-transform: capitalize;
   opacity: 70%;
   font-weight: 480;
+  line-height: 1.4;
+  letter-spacing: 0.05rem;
 }
