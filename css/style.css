@@ -31,14 +31,17 @@ nav {
 .nav-links li {
   list-style: none;
 }
+.nav-links a:visited,
 .nav-links a {
   text-decoration: none;
   font-size: 1.8rem;
   text-transform: uppercase;
+  color: black;
 }
+.ct-btn:visited,
 .ct-btn {
   background-color: rgb(255, 0, 0);
-  color: #fafafa;
+  color: #fafafa !important;
   padding: 0.8rem 1rem;
   border-radius: 1rem;
   margin-left: 6rem;
