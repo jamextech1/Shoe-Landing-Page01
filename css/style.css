@@ -94,6 +94,7 @@ nav {
   box-shadow: 0 0.5rem 0.5rem rgba(12, 74, 110, 0.288);
 }
 .shop-now-hero-btn:active {
+  border: none;
   transition: 0.15s ease-in-out;
   transform: translateY(-0.1rem);
   box-shadow: 0 0.35rem 0.6rem rgba(12, 74, 110, 0.288);
