@@ -103,7 +103,9 @@ nav {
 header {
   margin-bottom: 20.5rem;
 }
-
+/*  */
+/*  */
+/*  */
 /* PRICING SECTION STYLING */
 .pricing-section {
   margin: 0 auto;
@@ -113,6 +115,7 @@ header {
   justify-items: center;
   align-items: center;
   gap: 14%;
+  margin-bottom: 20.5rem;
 }
 .pricing-section-img {
   border-radius: 50%;
