@@ -105,7 +105,6 @@ header {
   gap: 14%;
 }
 .pricing-section-img {
-  /* height: 48rem; */
   border-radius: 50%;
 }
 .pricing-section-context {
@@ -163,7 +162,8 @@ header {
 .btn-cols {
   display: flex;
   gap: 4rem;
-  margin-left: 10rem;
+  margin-left: 15rem;
+  margin-top: 2rem;
 }
 .btn-col-1,
 .btn-col-2 {
@@ -173,6 +173,7 @@ header {
   gap: 0.8rem;
   text-transform: uppercase;
   opacity: 70%;
+  cursor: pointer;
 }
 .btn-col-icon {
   width: 2rem;
@@ -180,6 +181,7 @@ header {
   stroke: #0c4a6e;
 }
 .btn-purchase {
+  position: relative;
   display: inline-block;
   padding: 1rem 2rem;
   font-size: 1.6rem;
@@ -193,4 +195,21 @@ header {
 }
 .btn-purchase:hover {
   background-color: #0e547c;
+}
+.btn-purchase::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #0c4a6e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.4s ease-in-out;
+}
+.btn-purchase:hover::after {
+  transform: scaleX(1.5) scaleY(1.7);
+  opacity: 0;
 }
