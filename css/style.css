@@ -451,6 +451,15 @@ input:hover {
   width: 40%;
   align-self: center;
 }
-.submit-it-btn:hover:hover {
+.submit-it-btn:hover {
+  transition: 0.38s ease-in-out;
   background-color: #0e547c;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.4rem 0.8rem rgba(12, 74, 110, 0.301);
+}
+.submit-it-btn:active {
+  transition: 0.18s ease-in-out;
+  background-color: #0e547c;
+  transform: translateY(-0.15rem);
+  box-shadow: 0 0.2rem 0.4rem rgba(12, 74, 110, 0.288);
 }
