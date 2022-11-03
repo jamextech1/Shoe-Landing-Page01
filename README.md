@@ -1,5 +1,5 @@
 # Shoe-Landing-Page01
 
-## Will be adding btn to the hero section soon
+## This is a shoe-landing-page with home, pricing, products, and contact sections,
 
-## shop now btn successfull added to hero section
+## It,s meant to be responsive and all screen size fitted.
