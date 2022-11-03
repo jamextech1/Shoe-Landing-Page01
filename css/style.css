@@ -226,3 +226,19 @@ header {
   transform: scaleX(1.5) scaleY(1.7);
   opacity: 0;
 }
+/*  */
+/*  */
+/* PRODUCT SECTION STYLING  */
+/*  */
+.product-section {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.product-section-h2 {
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.15rem;
+  text-transform: uppercase;
+  margin-bottom: 9.2rem;
+}
