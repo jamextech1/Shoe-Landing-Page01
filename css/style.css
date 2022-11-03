@@ -77,19 +77,6 @@ nav {
   text-transform: capitalize;
   line-height: 1.5;
 }
-.hero-section-img::after {
-  content: "";
-  height: 200rem;
-  width: 200rem;
-  border-radius: 50%;
-  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 27, 27));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 header {
   margin-bottom: 20.5rem;
 }
