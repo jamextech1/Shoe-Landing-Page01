@@ -236,6 +236,7 @@ header {
 .product-section {
   max-width: 95%;
   margin: 0 auto;
+  margin-bottom: 20.5rem;
 }
 .product-section-h2 {
   text-align: center;
@@ -390,4 +391,21 @@ header {
 .product-addToCartBtn:hover::after {
   opacity: 0;
   transform: scaleX(1.4) scaleY(1.8);
+}
+
+/*  */
+/* contact section */
+.contact-section {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.contact-section-h3 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 4.4rem;
+  font-weight: 700;
+  letter-spacing: -0.2rem;
 }
