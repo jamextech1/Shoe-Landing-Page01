@@ -7,6 +7,7 @@ body {
   font-family: "Montserrat";
   margin-bottom: 10rem;
   color: #343a40;
+  overflow-x: hidden;
 }
 html {
   font-size: 62.5%;
